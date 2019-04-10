@@ -48,9 +48,7 @@ export class DashboardComponent implements OnInit {
    */
 exibirGraficos(): void {
     this.exibirPieChart();
-  }
-    /*
-  	this.exibir3dPieChart();
+   	this.exibir3dPieChart();
   	this.exibirBarChart();
   	this.exibirLineChart();
   	this.exibirColumnChart();
@@ -75,10 +73,10 @@ exibirPieChart(): void {
    *
    * @return void
    */
-  /*exibir3dPieChart(): void {
+exibir3dPieChart(): void {
   	const el = document.getElementById('3d_pie_chart');
   	const chart = new google.visualization.PieChart(el);
-	const opcoes = this.obterOpcoes();
+	  const opcoes = this.obterOpcoes();
 
     opcoes['is3D'] = true;
     chart.draw(this.obterDataTable(), opcoes);
@@ -89,7 +87,7 @@ exibirPieChart(): void {
    *
    * @return void
    */
-  /*exibirDonutChart(): void {
+exibirDonutChart(): void {
   	const el = document.getElementById('donut_chart');
   	const chart = new google.visualization.PieChart(el);
     const opcoes = this.obterOpcoes();
@@ -103,7 +101,7 @@ exibirPieChart(): void {
    *
    * @return void
    */
-  /*exibirBarChart(): void {
+exibirBarChart(): void {
   	const el = document.getElementById('bar_chart');
     const chart = new google.visualization.BarChart(el);
 
@@ -115,7 +113,7 @@ exibirPieChart(): void {
    *
    * @return void
    */
-  /*exibirLineChart(): void {
+exibirLineChart(): void {
   	const el = document.getElementById('line_chart');
     const chart = new google.visualization.LineChart(el);
     
@@ -127,7 +125,7 @@ exibirPieChart(): void {
    *
    * @return void
    */
-  /*exibirColumnChart(): void {
+exibirColumnChart(): void {
   	const el = document.getElementById('column_chart');
     const chart = new google.visualization.ColumnChart(el);
     
